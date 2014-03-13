@@ -1,0 +1,58 @@
+h1 {
+	font: bold 30pt Antikvar Shadow Roman; /**сторонний шрифт**/
+	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); /**тень, отбрасываемая заголовком**/
+	background-color: darkgrey;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: gold;
+	color: black;
+	text-align: center
+}
+
+h2 {
+	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+	font: bold 15pt Antikvar Shadow Roman;
+	text-align: center;
+}
+
+.btn_1 {
+	font: bold 10pt Arial;
+	background-color: tomato;
+	box-shadow: 0 0 5px black;
+	cursor: pointer;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.position {
+	font: bold 10pt Antikvar Shadow Roman;
+	background-color: beige;
+	box-shadow: 0 0 5px black;
+	cursor: pointer;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	border: 3px solid #666; /* Параметры рамки */
+	padding: 10px; /* Поля вокруг текста */
+	margin: 10px; /* Отступы вокруг */
+}
+.review {
+	font: bold 10pt Antikvar Shadow Roman;
+	background-color: beige;
+	box-shadow: 0 0 5px black;
+	cursor: pointer;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	border: 3px solid #666; /* Параметры рамки */
+	padding: 10px; /* Поля вокруг текста */
+	margin: 10px; /* Отступы вокруг */
+}
+.yandex {
+
+	  margin-left: 1200px;
+	  margin-top: 1px;
+  }

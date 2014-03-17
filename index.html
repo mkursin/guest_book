@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8">
     <title>Гостевая книга</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-<p><img src="image/11.png" width="100%"
-        height="100" alt="Фон"></p>
-
-<h1> Моя гостевая книга </h1>
-
-<h2> Оставьте пожалуйста отзыв </h2>
-
-<div class="btn_1">
-    <form action="home.html" method="get">
-        <p><input type="submit" name="" value="Главная страница"/></p>
+    <form>
+        <input id="btn21" type="button" value="отзыв">
     </form>
-    <form action="about_Me.html" method="get">
-        <p><input type="submit" name="" value="Немного по себе"/></p>
-    </form>
-    <form action="review.html" method="get">
-        <input type="submit"  name="sub1" value="Отзывы моей гостевой книги" />
-    </form>
-</div>
-<div class="position">
-    <form action="guest.php" method="post">
-        Имя<br>
-        <input type="text" required name="name"><br>
-        Email<br>
-        <input type="email" required name="email"><br>
-        Ваш отзыв:<br>
-		<div id="review">
-        <textarea name="review" required cols="60" rows="10"></textarea><br>
-        <input type="submit" value="Отправить">
-        <input class="btn" value="Очистить" type="reset"/>
-		</div>
-    </form>
-</div>
-<p><a href=" file_db.php">Архив отзывов</a></p>
+    <div id="content"></div>
+    <p><img src="image/background.png" width="100%" height="100" alt="Фон"></p>
 
+    <h1> Моя гостевая книга </h1>
+    <h2> Оставьте пожалуйста отзыв </h2>
 
+    <div class="btn_1">
+        <form action="home.html" method="get">
+            <p><input type="submit" name="" value="Главная страница"/></p>
+        </form>
+        <form action="about.html" method="get">
+            <p><input type="submit" name="" value="Немного по себе"/></p>
+        </form>
+        <form action="review.php" method="get">
+            <input type="submit" name="sub1" value="Отзывы моей гостевой книги"/>
+        </form>
+    </div>
+
+    <div class="position">
+        <form action="php/new_comment.php" method="post">
+            Имя<br>
+            <input type="text" required name="name"><br>
+            Email<br>
+            <input type="email" required name="email"><br>
+            Ваш отзыв:<br>
+
+            <div id="review">
+                <textarea name="review" required cols="60" rows="10"></textarea><br>
+                <input type="submit" value="Отправить">
+                <input class="btn" value="Очистить" type="reset"/>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
